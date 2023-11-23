@@ -1,0 +1,67 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ant-btn {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container h3 {
+  color: #1677ff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pdf-container {
+  max-width: 290px;
+  margin: 30px auto;
+}
+
+.ant-modal-content {
+  width: 700px;
+  text-align: center;
+}
+
+.react-pdf__Page__canvas {
+  border: 1px solid #cccc;
+  margin: 0 auto;
+  padding: auto;
+  border-radius: 5px;
+}
+
+.wrap-btns {
+  margin-top: 10px;
+}
+
+.wrap-btns button {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.wrap-btns button:hover {
+  cursor: pointer;
+  color: #1677ff;
+}
+
+.wrap-btns .page-number {
+  margin: 0 7px;
+  font-size: 14px;
+}
+
+.btn-paginate-disabled svg {
+  color: #a1a0a0;
+}
+
+.btn-paginate-disabled:hover {
+  user-select: none;
+  cursor: none;
+  pointer-events: none;
+  color: #a1a0a0;
+}
